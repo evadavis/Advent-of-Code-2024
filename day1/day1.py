@@ -1,7 +1,7 @@
 first = []
 second = []
 totaldistance = 0
-with open(r"C:\Users\evad2\OneDrive\Documents\AOC\input.txt", "r") as listfile:
+with open("input.txt", "r") as listfile:
     for line in listfile:
         splited = line.split()
         first.append(int(splited[0]))

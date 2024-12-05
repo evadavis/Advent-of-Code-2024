@@ -1,8 +1,6 @@
 def part1():
     safe = 0
-    with open(
-        r"C:\Users\evad2\OneDrive\Documents\AOC\day2\input.txt", "r"
-    ) as puzzleinput:
+    with open("input.txt", "r") as puzzleinput:
         for line in puzzleinput:
             unsafe = 0
             decreasing = 0
